@@ -1,2 +1,3 @@
-# gui_3d_graphics
-opengl + qt examples
+# 3-D Graphics in PyQt
+
+##
