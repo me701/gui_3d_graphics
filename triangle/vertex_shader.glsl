@@ -1,6 +1,3 @@
-// The vertex shader is responsible for placing
-// vertices in the proper location for the desired 
-// perspective.
 #version 120
 
 attribute highp vec4 vertex;    // location,
@@ -11,5 +8,5 @@ varying lowp vec4 color;        // color for fragments (from OpenGL)
 void main(void)
 {
     gl_Position = matrix * vertex; // vertex = 4-element vector.
-    color = color_atr;             // see, matrix-vector is important!
+    color = color_attr;             // see, matrix-vector is important!
 }
